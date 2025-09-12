@@ -1,20 +1,10 @@
-title: 我的 Wiki
-#remote_theme: just-the-docs/just-the-docs@v0.10.1
+title: 八股文面经集锦
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 #remote_theme: sighingnow/jekyll-gitbook
-remote_theme: 2type/gitbook
+#remote_theme: 2type/gitbook
+
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
-
-nav:
-  - title: "首页"
-    url: /
-  - title: "基础指南"
-    children:
-      - title: "环境搭建"
-        url: /setup
-      - title: "快速上手"
-        url: /quickstart
-  - title: "关于"
-    url: /about
